@@ -1,0 +1,160 @@
+.main-header {
+  background-color: #191a19;
+}
+
+.main-header img {
+  width: 100px;
+  margin-left: 45px;
+}
+
+.main-header li {
+  float: left;
+  list-style: none;
+}
+
+nav {
+  float: right;
+  margin-top: 35px;
+  margin-right: 56px;
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li:hover a {
+  color: darkred;
+  background-color: darkgray;
+}
+
+body {
+  background-color: #4a4948;
+}
+
+.jumbotron h2 {
+  color: burlywood;
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+  text-shadow: 3px 3px darkred;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.tittlep {
+  font-size: 30px;
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+  color: #ff4d4d;
+  text-shadow: 2px 2px white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-family: 'candara';
+  margin-left: 50px;
+  padding: 12px 28px;
+}
+
+.jumbotron button {
+  margin-left: 70px;
+}
+
+.myButton {
+  -moz-box-shadow: inset 0px 0px 0px 0px #a4dadb;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #a4dadb;
+  box-shadow: inset 0px 0px 0px 0px #a4dadb;
+  background-color: #023b2f;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 2px solid #0d6969;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 17px;
+  padding: 17px 34px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #56eded;
+  float: right;
+  clear: right;
+}
+
+.myButton:hover {
+  background-color: #3db88f;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+button {
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #4a4948;
+  border-radius: 4px;
+  border: 2px solid #4CAF50;
+  color: white;
+  padding: 12px 28px;
+}
+
+.button1 {
+  background-color: #4a4948;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.imagecero img, .imageone img, .imagetwo img, .imagethree img, .imagefour img, .imagefive img, .imagesix img, .imageseven img, .imageeight img {
+  margin-left: 30px;
+  width: 500px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 250px;
+  margin-top: 45px;
+}
+
+.imagecero p, .imageone p, .imagetwo p, .imagethree p, .imagefour p, .imagefive p, .imagesix p, .imageseven p, .imageeight p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  float: right;
+  clear: right;
+  width: 75%;
+  font-size: 20px;
+  color: aliceblue;
+  margin-right: 35px;
+}
+
+.imagecero h4, .imageone h4, .imagetwo h4, .imagethree h4, .imagefour h4, .imagefive h4, .imagesix h4, .imageseven h4, .imageeight h4 {
+  float: right;
+  clear: right;
+  color: white;
+  font-size: 20px;
+  margin-right: 700px
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 130px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1px;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: aliceblue;
+}
+
+footer img {
+  width: 35px;
+}
