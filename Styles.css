@@ -112,24 +112,15 @@ button {
   color: white;
 }
 
-.imagecero img, .imageone img, .imagetwo img, .imagethree img, .imagefour img, .imagefive img, .imagesix img, .imageseven img, .imageeight img {
-  margin-left: 30px;
-  width: 500px;
+img {
   border-radius: 8px;
   border: 1px solid #ddd;
-  padding: 5px;
-  width: 250px;
-  margin-top: 45px;
+  width: 100%;
+  margin-bottom:25px
 }
 
-.imagecero p, .imageone p, .imagetwo p, .imagethree p, .imagefour p, .imagefive p, .imagesix p, .imageseven p, .imageeight p {
+section p{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  float: right;
-  clear: right;
-  width: 75%;
-  font-size: 20px;
-  color: aliceblue;
-  margin-right: 35px;
 }
 
 .imagecero h4, .imageone h4, .imagetwo h4, .imagethree h4, .imagefour h4, .imagefive h4, .imagesix h4, .imageseven h4, .imageeight h4 {

@@ -29,10 +29,12 @@ li:hover a {
   color: darkred;
   background-color: darkgray;
 }
-
-body {
-  background-color: #4a4948;
+h3 {
+  text-align: center;
 }
+p {
+}
+
 footer {
   clear: both;
   position: relative;
