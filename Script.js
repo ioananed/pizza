@@ -23,3 +23,7 @@ takeOrder('pepperoni', 'regular');
 takeOrder('pesto', 'thin');
 
 console.log(getTotal());
+
+function addToCard(){
+  
+}
