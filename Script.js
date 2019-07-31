@@ -50,4 +50,12 @@ function getTax() {
 function getTotal() {
   return getSubTotal(ordercounte) + getTax();
 }
-console.log(getTotal());
+ function gett {
+
+ if (true) {
+  console.log(getTotal());
+
+} else {
+
+}
+}
