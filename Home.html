@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <script type="text/javascript" src="Script.js"></script>
+  <script type="text/javaScript" src="Script.js"></script>
   <link rel="stylesheet" type="text/css" href="Styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="images/pizzacss.png" sizes="96x96">
@@ -11,15 +11,15 @@
 </head>
 
 <body>
-
+  <script type="text/javaScript" src="Script.js"></script>
   <header class="main-header">
     <img src="images/PIZZACS.png"></img>
     <nav class="nav main-nav">
       <ul>
         <li><a href="Home.html" class="text-decoration-none">Home</a></li>
         <li><a href="AboutUs.html" class="text-decoration-none">About Us</a></li>
-        <li><a href="LogIn.html" class="text-decoration-none">Log in</a></li>
-        <li><a href="Perfil.html" class="text-decoration-none">Perfil</a></li>
+        <li><a href="LogIn.html" class="text-decoration-none">Cesta</a></li>
+        <li><a href="Perfil.html" class="text-decoration-none">Pedido</a></li>
       </ul>
     </nav>
   </header>
@@ -31,7 +31,7 @@
     <button type="button" class="btn btn-success">Hacer Pedido</button>
 
   </div>
-  <section class="col-xs-6, col-md-12" >
+  <section class="col-xs-6, col-md-12">
     <div class="tittlep">
       <h3>Tipos de PIZZA o <button type="button" class="btn btn-outline-success">Hacer Pizza</button></h3>
       <hr>
@@ -46,7 +46,8 @@
           <p>Para tu próxima reunión o cena romántica, sorprende a tus invitados con esta clásica receta de Pizza de Pepperoni con Orilla de Queso. Lo mejor de todo es que la masa contiene una mezcla de especias italianas para darle mucho más sabor.
             Además,
             el toque más especial de esta pizza será la orilla rellena de queso.</p>
-            <button type="button" class="btn btn-outline-warning">Add to Cart</button>
+            <h2>7, 50 €</h2>
+          <button id="pepperoni" onclick="Pepperoni()" type="button" class="btn btn-outline-warning">Add to Cart</button>
           <div>
           </div>
         </div>
@@ -55,11 +56,12 @@
         <div class="row">
           <div class="col-4">
             <img src="images/jamonypalmitos.jpg" alt="..." class="img-thumbnail">
-                    </div>
+          </div>
           <div class="col-8">
             <h4>Pizza de Jamón y Palmitos</h4>
             <p>Si decide hacer una pizza party, no habrá forma de calmar a la multitud. Servimos esta pizza con mozzarella, jamón y palmitos, para los amantes de lo imperdible y delicioso. Los palmitos son el toque de gracia.</p>
-            <button type="button" class="btn btn-outline-warning">Add to Cart</button>
+            <h2>8 €</h2>
+            <button type="button" class="btn btn-outline-warning" onclick="palmitosja()">Add to Cart</button>
             <div>
             </div>
           </div>
@@ -74,7 +76,8 @@
                   una
                   auténtica
                   delicia.</p>
-                  <button type="button" class="btn btn-outline-warning">Add to Cart</button>
+                  <h2>8, 99 €</h2>
+                <button type="button" class="btn btn-outline-warning" >Add to Cart</button>
                 <div>
                 </div>
               </div>
@@ -87,6 +90,7 @@
                 <div class="col-8">
                   <h4>Pizza de Huevo y Tocino</h4>
                   <p>Si buscas una alternativa de comida para una reunión informal con tus amigos, pide estas ricas pizzas de huevo y tocino. No te arrepentirás su precio vale la pena.</p>
+                  <h2>7 €</h2>
                   <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                   <div>
                   </div>
@@ -99,6 +103,7 @@
                     <div class="col-8">
                       <h4>Pizza de Jamón y Panceta</h4>
                       <p>Pizza con jamón y panceta, esta pizza es deliciosa. Seguramente ya habrás probado otras pizzas pero no como esta, así que, ¿por qué no probar algo nuevo?</p>
+                      <h2>6, 50 €</h2>
                       <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                       <div>
                       </div>
@@ -115,7 +120,8 @@
                           la mozzarella
                           queda
                           superjugoso y los pocos trocitos de pimiento verde le dan un justo contraste. Probadla y veréis qué sorpresa os lleváis en cada bocado.</p>
-                          <button type="button" class="btn btn-outline-warning">Add to Cart</button>
+                          <h2>7, 50 €</h2>
+                        <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                         <div>
                         </div>
                       </div>
@@ -132,7 +138,8 @@
                               fuego
                               de
                               leña, dándole vueltas”. Pruébala y comprueba tu mismo/a si merece la pena.¡Anímate!</p>
-                              <button type="button" class="btn btn-outline-warning">Add to Cart</button>
+                              <h2>10 €</h2>
+                            <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                             <div>
                             </div>
                           </div>
@@ -145,6 +152,7 @@
                             <div class="col-8">
                               <h4>Pizza de Salmón ahumado y Queso Crema</h4>
                               <P>Sin duda para los amantes del salmón ahumado ésta será una pizza que repetirán. Esta deliciosa pizza de salmon ahumado y queso crema le gustará a toda la familia. Es ideal para reuniones de familia, amigos...</P>
+                              <h2>8 €</h2>
                               <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                               <div>
                               </div>
@@ -157,6 +165,7 @@
                                 <div class="col-8">
                                   <h4>Pizza Cuatro Quesos</h4>
                                   <p>Combinación perfecta de una selección de quesos suaves y potentes. Sin duda le encatará a cualquiera.</p>
+                                  <h2>9, 40 €</h2>
                                   <button type="button" class="btn btn-outline-warning">Add to Cart</button>
                                   <div>
                                   </div>
@@ -164,12 +173,12 @@
   </section>
   <footer>
     <div class="p-3 mb-2 bg-secondary text-white">
-    <p><b>&copy; 2019 PIZZACS___________________OUR SOCIAL ACCOUNTS_______________</b>
-      <a href="https://www.instagram.com/"><img src="images/instagram.png"></img></a>
-      <a href="https://www.facebook.com/"><img src="images/facebook.png"></img></a>
-      <a href="https://www.youtube.com/?hl=es&gl=ES"><img src="images/youtube.png"></img></a>
-    </p>
-  </div>
+      <p><b>&copy; 2019 PIZZACS___________________OUR SOCIAL ACCOUNTS_______________</b>
+        <a href="https://www.instagram.com/"><img src="images/instagram.png"></img></a>
+        <a href="https://www.facebook.com/"><img src="images/facebook.png"></img></a>
+        <a href="https://www.youtube.com/?hl=es&gl=ES"><img src="images/youtube.png"></img></a>
+      </p>
+    </div>
     <footer>
 </body>
 
